@@ -10,8 +10,6 @@ console.clear();
 // const [,,arg3='base=5']=process.argv;
 // const [,base] = arg3.split('=');
 
-console.log("asdaf");
-
 crearArchivo(argv.b,argv.l,argv.h)
     .then(tabla=>console.log(tabla.rainbow))
     .catch(err=>console.log(err));
